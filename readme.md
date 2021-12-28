@@ -1,0 +1,1 @@
+Content in this repo and/or release is property of Hellfire Interactive (Retextures) and VOID Interactive (Texture UV's, base game)

@@ -1,0 +1,132 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/ThirdParty/Rain_material/textures/drops/drops_03_normal.drops_03_normal'
+    ReferencedTextures[1] = Texture2D'/Game/ThirdParty/Rain_material/textures/drops/drops_03_roughness.drops_03_roughness'
+    ReferencedTextures[2] = Texture2D'/Game/ThirdParty/Rain_material/textures/flowmasks/flowmask01.flowmask01'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[14] =
+                {
+                    ParameterInfos[0] = { Name=UV multiplier }
+                    ParameterInfos[1] = { Name=Mask general flow speed }
+                    ParameterInfos[2] = { Name=Emissive Power }
+                    ParameterInfos[3] = { Name=Bottom layer flow speed }
+                    ParameterInfos[4] = { Name=WeaponFov }
+                    ParameterInfos[5] = { Name=rainscale }
+                    ParameterInfos[6] = { Name=WetLevel }
+                    ParameterInfos[7] = { Name=Static_drop_on? }
+                    ParameterInfos[8] = { Name=IsRainingOnGun? }
+                    ParameterInfos[9] = { Name=Blend }
+                    ParameterInfos[10] = { Name=General flow speed }
+                    ParameterInfos[11] = { Name=DepthScale }
+                    ParameterInfos[12] = { Name=Static_Drop_Speed }
+                    ParameterInfos[13] = { Name=DisableWeaponFOV }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Taser Light Colour }
+                    ParameterInfos[1] = { Name=WeaponOffset }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[14] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 0.1
+            ScalarValues[2] = 1
+            ScalarValues[3] = 0
+            ScalarValues[4] = 90
+            ScalarValues[5] = 1
+            ScalarValues[6] = 1
+            ScalarValues[7] = 1
+            ScalarValues[8] = 1
+            ScalarValues[9] = 1
+            ScalarValues[10] = 0.05
+            ScalarValues[11] = 0.08
+            ScalarValues[12] = 1
+            ScalarValues[13] = 1
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=1, G=0.90625, B=0.90625, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/ThirdParty/Rain_material/textures/drops/drops_03_normal.drops_03_normal'
+        ReferencedTextures[1] = Texture2D'/Game/ThirdParty/Rain_material/textures/drops/drops_03_roughness.drops_03_roughness'
+        ReferencedTextures[2] = Texture2D'/Game/ThirdParty/Rain_material/textures/flowmasks/flowmask01.flowmask01'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[14] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=UV multiplier, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0.1
+        Name = Mask general flow speed
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=1, Name=Emissive Power, Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 0
+        Name = Bottom layer flow speed
+        Group = None
+    }
+    CollectedScalarParameters[4] = { Value=90, Name=WeaponFov, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=rainscale, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=WetLevel, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Static_drop_on?, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=IsRainingOnGun?, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Blend, Group=None }
+    CollectedScalarParameters[10] = { Value=0.05, Name=General flow speed, Group=None }
+    CollectedScalarParameters[11] = { Value=0.08, Name=DepthScale, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=Static_Drop_Speed, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=DisableWeaponFOV, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.90625, B=0.90625, A=1 }
+        Name = Taser Light Colour
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = WeaponOffset
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
